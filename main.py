@@ -26,7 +26,7 @@ def main():
     summary_template = """
         given the information {information} about a person I want you to create:
         1. A short summary
-        2. two interesting facts abouyt them
+        2. two interesting facts about them
     """    
 
     summary_prompt_template = PromptTemplate(
